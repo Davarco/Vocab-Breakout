@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html>
+
+	<head>
+		<title>Words on Wednesday Breakout!</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="stylesheet" type="text/javascript" href="script.js">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<script src = "script.js"></script>
+		<!-- BACKGROUND MUSIC FROM KOTOR 1 & 2: FOR NON-PROFIT PURPOSES AND NOT CREATED BY ME*/ -->
+		<embed src="backgroundMusic.mp3" autostart="true" loop="true" hidden="true">
+	</head> 
+	
+	<body>
+		<!-- Decorative Elements and NavBar -->
+		<div class = "topBar"></div>
+		
+		<div class = "navBar">
+			<ul class = "ulBar">
+				<li class = "liBarCurrent"><a href = "index.html" class = "linkOne">Home</a></li> 
+				<!-- <li class = "liBar"><a href = "about.html" class = "linkOne">About Me & Contact</a></li> --> 
+			</ul>
+		</div> 
+		
+		<!-- Game Development of HTML/CSS Begins Here -->
+		<h1 id = "gameHeader">Words on Wednesday Breakout!</h1>
+		<center><div id = "gameMain">
+			<br><br>
+			<button id = "clickPlay" onclick = "gameBegins()">Click to Play!</button><br><br>
+			<p id = "gameIntro">20Time Project by David Zhang</p>
+			<p id = "gameCopyright">&copy; Copyright David Zhang, 2016. All rights reserved. </p>
+			<div id = "gameTextHeader"></div>
+			<div id = "gameTextMini"></div>
+			<div id = "gameText"></div>
+			<div id = "gameButton"></div>
+			<div id = "scoreTracker">
+				<div id = "lifeCounter"><p id = "lives"></p></div>
+				<div id = "pointCounter"><p id = "points"></p></div>
+			</div>
+			<canvas id = "gameTracker" width = "1200px" height = "700px" style = "margin-top: -3px"></canvas>
+		</div><center>
+	        <br>
+                <br>
+	</body> 
+
+</html>
